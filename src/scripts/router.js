@@ -12,7 +12,7 @@ export function route(path) {
    } else if (path === "/citations") {
     return renderCitations();
   } else {
-    return `<h1>sorry try again idiot</h1><a href="#/">Back Home</a>`;
+    return `<h1>:(  Houston, we have a problem!</h1><a href="#/">Back Home</a>`;
   }
 }
 
