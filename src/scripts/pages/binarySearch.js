@@ -13,7 +13,7 @@ export function renderBinarySearch() {
       <hr>
       <p>My project was super fun, I worked hard on it!</p>
       ${renderIframe(
-        "https://iacs-cs.github.io/sandbox-avalynn24/",
+        "https://iacs-cs.github.io/binary-search-chase-and-ava/",
         "My Project Title"
       )}
     </article>
