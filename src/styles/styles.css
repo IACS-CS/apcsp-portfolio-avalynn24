@@ -1,3 +1,33 @@
+/* Project grid styles */
+.project-grid {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 2rem 2.5rem;
+  text-align: center;
+  min-width: 220px;
+  transition: box-shadow 0.2s;
+}
+
+.project-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.project-card a {
+  text-decoration: none;
+  color: #2563eb;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
 /* Add any CSS styles or rules here */
 
 body {
@@ -69,4 +99,43 @@ div.hero-background {
 
 .homepage-content.visible {
   opacity: 1;
+}
+
+/* Grid layout for menu links */
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  margin: 2rem 0;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  list-style: none;
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 1.5rem;
+  text-align: center;
+  transition: box-shadow 0.2s;
+}
+
+nav li:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+nav a {
+  text-decoration: none;
+  color: #2563eb;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
