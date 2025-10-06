@@ -7,7 +7,7 @@ export function renderBinarySearch() {
   return `
     <!-- code generated in binarySearch.js -->
     <h1>Binary Search Project</h1>    
-    ${renderMenu()}
+    ${renderMenu('#/binary-search')}
     <article>
       <p>Assignment: Create a program built on the concept of binary search</p>
       <hr>

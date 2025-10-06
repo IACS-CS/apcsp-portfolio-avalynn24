@@ -6,7 +6,7 @@ export function renderWelcome() {
   return `
     <!-- code generated in welcome.js -->
     <h1>Avalynn's Student Portfolio</h1>
-    ${renderMenu()}
+    ${renderMenu("#/")}
     <div class="hero-background">
     <img class="hero" data-aos-duration="10500" data-aos-delay="3000" data-aos="zoom-in" src="./capsule-hi-res-grey.png" alt="A space capsule" >
     </div>

@@ -1,15 +1,26 @@
 // src/scripts/utils/renderMenu.js
-export function renderMenu() {
+export function renderMenu(currentPage) {
   /* html */
   return `    
     <!-- code generated in renderMenu.js -->
     <nav>
       <ul>
-        <li><a href="#/">Home</a></li>
-        <li><a href="#/binary-search">Binary Search Project</a></li>
-        <li><a href="#/citations">Citations</a></li>
+        <li>${renderLink("#/" , "Home" ,currentPage)}</li>
+        <li>${renderLink(
+          "#/binary-search",
+          "Binary Search Project",
+          currentPage
+        )}</li>
+        <li>${renderLink("#/citations", "Citations", currentPage)}</li>
       </ul>
     </nav>
     <!-- end code generated in renderMenu.js -->
   `;
+}
+function renderLink(page, text, currentPage){
+  if (page === currentPage){
+    return `<strong>${text}</strong>`;
+  } else {
+    return `<a href="${page}">${text}</a>`;
+  }
 }
