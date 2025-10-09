@@ -4,7 +4,7 @@ import { renderMenu, renderProjectGrid } from "../utils/renderMenu.js";
 export function renderWelcome() {
   return `
     <!-- code generated in welcome.js -->
-    <h1>Avalynn's Student Portfolio</h1>
+    <h1 class="animate__delay-2s animate__animated animate__backInDown">Avalynn's Student Portfolio</h1>
     ${renderMenu("#/")}
     <h2>Projects</h2>
     ${renderProjectGrid()}
