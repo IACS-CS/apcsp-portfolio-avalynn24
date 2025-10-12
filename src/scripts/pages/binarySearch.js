@@ -13,7 +13,7 @@ export function renderBinarySearch() {
       <hr>
       <p>In this project Chase and I decided to create a binary search game where 
       the user has to think of a linix distro and the program has to guess what distro 
-      they're thinking of using different queations</p>
+      they're thinking of using different queations.</p>
       ${renderIframe(
         "https://iacs-cs.github.io/binary-search-chase-and-ava/",
         "My Project Title"
