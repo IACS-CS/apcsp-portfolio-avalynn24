@@ -2,12 +2,14 @@
 import { renderMenu } from "../utils/renderMenu.js";
 import { renderIframe } from "../utils/renderIframe.js";
 
+// Render the Binary Search project page
 export function renderBinarySearch() {
   /* html */
   return `
     <!-- code generated in binarySearch.js -->
     <h1 class="animate__animated animate__bounceInDown">Binary Search Project</h1>    
     ${renderMenu("#/binary-search")}
+  
     <article>
       <p>Assignment: Create a program built on the concept of binary search</p>
       <hr>
