@@ -2,6 +2,7 @@
 // Shared project list
 export const projectList = [
   { url: "#/binary-search", label: "Binary Search Project" },
+  { url: "#/canvas-game", label: "Canvas Game" },
   { url: "#/citations", label: "Citations" },
 ];
 

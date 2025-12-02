@@ -1,6 +1,7 @@
 // src/scripts/router.js
 import { renderWelcome } from "./pages/welcome.js";
 import { renderBinarySearch } from "./pages/binarySearch.js";
+import { renderCanvasGame } from "./pages/canvasgame.js";
 import { renderCitations } from "./pages/citations.js";
 /* route takes a path and chooses which page to render.
 It is called each time the user clicks on a navigation link */
@@ -9,7 +10,9 @@ export function route(path) {
     return renderWelcome();
   } else if (path === "/binary-search") {
     return renderBinarySearch();
-   } else if (path === "/citations") {
+  } else if (path === "/canvas-game") {
+    return renderCanvasGame();
+  } else if (path === "/citations") {
     return renderCitations();
   } else {
     return `<h1>:(  Houston, we have a problem!</h1><a href="#/">Back Home</a>`;
